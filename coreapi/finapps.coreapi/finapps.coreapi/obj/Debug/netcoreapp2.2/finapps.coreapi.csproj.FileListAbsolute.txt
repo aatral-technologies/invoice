@@ -1,0 +1,3 @@
+C:\src\invoice\coreapi\finapps.coreapi\finapps.coreapi\obj\Debug\netcoreapp2.2\finapps.coreapi.csproj.CoreCompileInputs.cache
+C:\src\invoice\coreapi\finapps.coreapi\finapps.coreapi\obj\Debug\netcoreapp2.2\finapps.coreapi.AssemblyInfoInputs.cache
+C:\src\invoice\coreapi\finapps.coreapi\finapps.coreapi\obj\Debug\netcoreapp2.2\finapps.coreapi.AssemblyInfo.cs

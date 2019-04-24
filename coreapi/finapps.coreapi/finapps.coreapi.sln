@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "finapps.coreapi", "finapps.coreapi\finapps.coreapi.csproj", "{F6E4E408-9B84-49CB-909A-64DA1B6544C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6E4E408-9B84-49CB-909A-64DA1B6544C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E4E408-9B84-49CB-909A-64DA1B6544C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E4E408-9B84-49CB-909A-64DA1B6544C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E4E408-9B84-49CB-909A-64DA1B6544C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0151FD78-0B73-4F02-B324-29EC7E2B6C9D}
+	EndGlobalSection
+EndGlobal
