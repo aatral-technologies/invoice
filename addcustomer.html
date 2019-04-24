@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Customer</title>
+        <link href="customer.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        </head>
+    <body>
+            <nav class="navbar navbar-expand-sm">
+                    <!-- Brand/logo -->
+                    <a class="navbar-brand" href="#">
+                      <img src="better.png" alt="logo">
+                    </a>
+            </nav>
+
+
+<div class="container-fluid">
+    <div class="add-customer">
+        <span class="title">Customer Info</span>
+
+        <div class="row">
+                <div class="col-md-2 col-xs-12 col-sm-12">
+                  <div class="form-group"><label>Title</label>
+                     <input type="text" class="form-control" name="title"  id="title" value=""/>
+                 </div>
+            </div>
+            <div class="col-md-2 col-xs-12 col-sm-12">
+                    <div class="form-group"><label>First Name</label>
+                       <input type="text" class="form-control" name="firstname"  id="firstname" value=""/>
+                   </div>
+              </div>
+              <div class="col-md-2 col-xs-12 col-sm-12">
+                    <div class="form-group"><label>Middle Name</label>
+                       <input type="text" class="form-control" name="middle"  id="middle" value=""/>
+                   </div>
+              </div>
+              <div class="col-md-3 col-xs-12 col-sm-12">
+                    <div class="form-group"><label>Last Name</label>
+                       <input type="text" class="form-control" name="last"  id="last" value=""/>
+                   </div>
+              </div>
+              <div class="col-md-3 col-xs-12 col-sm-12">
+                    <div class="form-group"><label>Email</label>
+                       <input type="email" class="form-control" name="email"  id="email" value=""/>
+                   </div>
+              </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-3 col-xs-12 col-sm-12">
+                      <div class="form-group"><label>Company</label>
+                         <input type="text" class="form-control" name="company"  id="company" value=""/>
+                     </div>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="form-group"><label>Phone</label>
+                           <input type="text" class="form-control"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Enter valid phonenumber" name="phone"  id="phone" value=""/>
+                       </div>
+                  </div>
+                  <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="form-group"><label>Mobile</label>
+                           <input type="text" class="form-control" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Enter valid phonenumber" name="mobile"  id="molebi" value=""/>
+                       </div>
+                  </div>
+                  <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="form-group"><label>Fax</label>
+                           <input type="text" class="form-control"  pattern= "/^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}/" title="Enter valid fax number"
+                           name="fax"  id="fax" value=""/>
+                       </div>
+                  </div>
+                 </div>
+
+                 <div class="row">
+                        <div class="col-md-6 col-xs-12 col-sm-12">
+                                <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Billing address</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-sm-12">
+                            <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Shipping address</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="col-md-3 col-xs-12 col-sm-12">
+                                <div class="form-group"><label>GST State*</label>
+                                        <select class="form-control" required>
+                                                <option value="">Select State</option>
+                                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                <option value="Assam">Assam</option>
+                                                <option value="Bihar">Bihar</option>
+                                                <option value="Chandigarh">Chandigarh</option>
+                                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                                <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                                                <option value="Daman and Diu">Daman and Diu</option>
+                                                <option value="Delhi">Delhi</option>
+                                                <option value="Goa">Goa</option>
+                                                <option value="Gujarat">Gujarat</option>
+                                                <option value="Haryana">Haryana</option>
+                                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                                <option value="Jharkhand">Jharkhand</option>
+                                                <option value="Karnataka">Karnataka</option>
+                                                <option value="Kerala">Kerala</option>
+                                                <option value="Lakshadweep">Lakshadweep</option>
+                                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                <option value="Maharashtra">Maharashtra</option>
+                                                <option value="Manipur">Manipur</option>
+                                                <option value="Meghalaya">Meghalaya</option>
+                                                <option value="Mizoram">Mizoram</option>
+                                                <option value="Nagaland">Nagaland</option>
+                                                <option value="Orissa">Orissa</option>
+                                                <option value="Pondicherry">Pondicherry</option>
+                                                <option value="Punjab">Punjab</option>
+                                                <option value="Rajasthan">Rajasthan</option>
+                                                <option value="Sikkim">Sikkim</option>
+                                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                                <option value="Tripura">Tripura</option>
+                                                <option value="Uttaranchal">Uttaranchal</option>
+                                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                <option value="West Bengal">West Bengal</option>
+                                        </select>
+                                </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12 col-sm-12">
+                            <div class="form-group"><label>GST Number</label>
+                               <input type="text"  class="form-control" name="gst"  id="gst" value=""/>
+                           </div>
+                      </div>
+                    <div class="col-md-3 col-xs-12 col-sm-12">
+                            <div class="form-group"><label>Pan Number</label>
+                                <input type="text"  class="form-control" name="pan"  id="pan" value=""/>
+                            </div>
+                      </div>
+                      <div class="col-md-3 col-xs-12 col-sm-12">
+                            <div class="form-group"><label>Payment Terms</label>
+                                    <select  class="form-control" required>
+                                      <option>Term1</option>
+                                      <option>term2</option>
+                                      <option>term3</option>
+                                    </select>
+                            </div>  
+                      </div>
+                  </div>
+  
+  <div class="final">
+  <button class="btn btn-primary">Save</button>
+  <button class="btn btn-danger">Cancel</button>
+</div>
+
+    </div>
+</div>
+        
+    </body>
+
+</html>
